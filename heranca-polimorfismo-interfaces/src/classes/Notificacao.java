@@ -9,7 +9,7 @@ public abstract class Notificacao {
         this.mensagem = mensagem;
     }
 
-    abstract void enviar();
+    public abstract void enviar();
 
     public String getDestinatario() {
         return destinatario;
